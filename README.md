@@ -1,26 +1,22 @@
-Praktikum 9 – Pemrograman Web
-Modularisasi, Routing, dan Template Layout
-Nama:
-NIM:
-Kelas:
-Mata Kuliah: Pemrograman Web
-Dosen: Agung Nugroho, S.Kom., M.Kom.
+# Identitas Mahasiswa
+
+## Nama : Afdhal Agislam  
+## NIM : 312410445  
+## Kelas : TI.24.A5  
+
 ## 1. Tujuan Praktikum
 
-Pada praktikum ini Anda mempelajari dan mengimplementasikan:
+### Pada praktikum ini Anda mempelajari dan mengimplementasikan:
 
-Konsep modularisasi program PHP
+- Konsep modularisasi program PHP
 
-Pemisahan kode menjadi template (header, footer, layout)
+- Pemisahan kode menjadi template (header, footer, layout)
 
-Penggunaan struktur folder modular
+- Penggunaan struktur folder modular
 
-Routing sederhana menggunakan index.php?page=...
+- Routing sederhana menggunakan index.php?page=...
 
-Integrasi CRUD dari Praktikum 8 ke sistem modular
-
-Sumber referensi tugas berasal dari:
-Praktikum 9 – PHP Modular
+- Integrasi CRUD dari Praktikum 8 ke sistem modular
 
 
 ## Praktikum 9
@@ -31,16 +27,15 @@ Buat folder baru di:
 
 htdocs/lab9_php_modular/
 
-
-Kemudian buat struktur direktori sesuai file praktikum:
-
-screenshot
+## Kemudian buat struktur direktori sesuai file praktikum:
 
 ## 3. Membuat Template (Modularisasi)
-3.1 header.php
+
+### 3.1 header.php
 
 File ini digunakan sebagai template bagian atas halaman, berisi elemen header dan navigasi.
 
+```php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,11 +56,11 @@ File ini digunakan sebagai template bagian atas halaman, berisi elemen header da
     <a href="index.php?page=kontak">Kontak</a>
     <a href="index.php?page=user/list">Data Barang</a>
 </nav>
-
-3.2 footer.php
+```
+### 3.2 footer.php
 
 Template bagian footer untuk semua halaman.
-
+```php
 <footer>
     <p>&copy; 2024 - Universitas Pelita Bangsa</p>
 </footer>
@@ -73,14 +68,15 @@ Template bagian footer untuk semua halaman.
 </div>
 </body>
 </html>
+```
 
 ## 4. Routing Menggunakan index.php
 
-Routing memungkinkan setiap halaman dipanggil melalui URL:
+### Routing memungkinkan setiap halaman dipanggil melalui URL:
 
 index.php?page=user/list
 
-Kode index.php
+```php
 <?php
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 
@@ -96,26 +92,28 @@ if (file_exists($filepath)) {
 
 include 'modules/footer.php';
 ?>
+```
 
 ## 5. Halaman Konten
-5.1 Home
+
+### 5.1 Home
 
 modules/home.php
 
 <h2>Ini Halaman Home</h2>
 <p>Selamat datang di sistem modularisasi PHP.</p>
 
-5.2 About
+### 5.2 About
 <h2>Ini Halaman About</h2>
 <p>Informasi mengenai aplikasi.</p>
 
-5.3 Kontak
+### 5.3 Kontak
 <h2>Ini Halaman Kontak</h2>
 <p>Hubungi kami melalui email support@example.com</p>
 
 ## 6. Implementasi CRUD (Modularisasi Praktikum 8)
 
-Sesuai tugas praktikum:
+### Sesuai tugas praktikum:
 
 “Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database.”
 
@@ -124,24 +122,24 @@ Maka seluruh file CRUD dipindahkan ke folder:
 modules/user/
 
 
-Isinya:
+## Isinya:
 
-6.1 list.php
+### 6.1 list.php
 
 Menampilkan data barang dari database.
 
 
-6.2 tambah.php
+### 6.2 tambah.php
 
 Form tambah barang.
 
 
-6.3 ubah.php
+### 6.3 ubah.php
 
 Form edit barang.
 
 
-6.4 hapus.php
+### 6.4 hapus.php
 
 Menghapus data tanpa tampilan.
 
@@ -157,11 +155,12 @@ header("Location: ../../index.php?page=user/list");
 ```
 
 ## 7. Cara Menjalankan Project
-Langkah-langkah:
+
+### Langkah-langkah:
 
 Jalankan XAMPP → Apache + MySQL
 
-Buat database:
+### Buat database:
 
 latihan1
 
@@ -173,7 +172,7 @@ Buka browser
 http://localhost/lab9_php_modular/
 
 
-Navigasi halaman lewat routing:
+### Navigasi halaman lewat routing:
 
 Fungsi	URL
 Home	?page=home
@@ -189,4 +188,29 @@ Ubah Barang	?page=user/ubah&id=1
 ![XAMPP Running](assets/images/ss-xampp.png)
 
 ## 2. Struktur Folder Project
-![Struktur Folder](assets/images/ss-structure.png)
+![Struktur Folder](assets/images/stuktur.png)
+
+## 3. Login
+![Struktur Folder](assets/images/login.png)
+
+## 4. Dashboard, Header, Footer
+![Struktur Folder](assets/images/dashboard.png)
+
+## 5. Data Barang/List Add
+![Struktur Folder](assets/images/data_barang.png)
+
+## 4. Tambah Barang
+![Struktur Folder](assets/images/ss-tambah_barang.png)
+
+## Kesimpulan
+
+Pada Praktikum 9 ini, konsep modularisasi berhasil diterapkan pada project CRUD dari Praktikum 8 dengan membagi kode program menjadi beberapa bagian terpisah yang lebih terstruktur, yaitu header, footer, routing, serta modul–modul halaman. Dengan penerapan modularisasi ini, setiap halaman aplikasi kini memiliki tampilan yang konsisten karena menggunakan template yang sama melalui file header.php dan footer.php.
+
+Selain itu, penerapan routing menggunakan parameter index.php?page=… membuat project menjadi lebih mudah dikembangkan, lebih rapi, dan lebih mudah dibaca. Routing juga memungkinkan penambahan halaman baru tanpa harus membuat file utama yang berbeda untuk tiap tampilan.
+
+
+
+
+
+
+
