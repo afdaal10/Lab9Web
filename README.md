@@ -1,8 +1,9 @@
 # Identitas Mahasiswa
 
-## Nama : Afdhal Agislam  
-## NIM : 312410445  
-## Kelas : TI.24.A5  
+**Nama  :** Afdhal Agislam  
+**NIM   :** 312410445  
+**Kelas :** TI.24.A5  
+
 
 ## 1. Tujuan Praktikum
 
