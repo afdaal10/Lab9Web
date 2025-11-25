@@ -113,7 +113,7 @@ modules/home.php
 
 ## 6. Implementasi CRUD (Modularisasi Praktikum 8)
 
-### Sesuai tugas praktikum:
+###  tugas praktikum:
 
 “Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database.”
 
@@ -185,22 +185,22 @@ Ubah Barang	?page=user/ubah&id=1
 ## SCREENSHOT HASIL
 
 ## 1. Menjalankan XAMPP
-![XAMPP Running](assets/images/ss-xampp.png)
+![Screenshot xampp](xampp.png)
 
 ## 2. Struktur Folder Project
-![Struktur Folder](assets/images/stuktur.png)
+![Screenshot stuktur](stuktur.png)
 
 ## 3. Login
-![Struktur Folder](assets/images/login.png)
+![Screenshot login](login.png)
 
-## 4. Dashboard, Header, Footer
-![Struktur Folder](assets/images/dashboard.png)
+## 4. Halaman Home Meliputi Dashboard,Header,Footer
+![Screenshot home](dashboard.png)
 
 ## 5. Data Barang/List Add
-![Struktur Folder](assets/images/data_barang.png)
+![Screenshot data_barang](data_barang.png)
 
 ### 6.Tampilan Tambah Barang
-![Screenshot tabel](tambah_barang.png)
+![Screenshot tambah](tambah_barang.png)
 
 ## Kesimpulan
 
