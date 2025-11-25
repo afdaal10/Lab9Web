@@ -200,7 +200,7 @@ Ubah Barang	?page=user/ubah&id=1
 ![Struktur Folder](assets/images/data_barang.png)
 
 ### Tampilan Tambah Barang
-![Tampilan Tambah](assets/img/tambah_barang.png)
+![Tampilan Tambah](img/tambah_barang.png)
 
 ## Kesimpulan
 
