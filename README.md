@@ -199,8 +199,8 @@ Ubah Barang	?page=user/ubah&id=1
 ## 5. Data Barang/List Add
 ![Struktur Folder](assets/images/data_barang.png)
 
-## 4. Tambah Barang
-![Struktur Folder](assets/images/ss-tambah_barang.png)
+### Tampilan Tambah Barang
+![Tampilan Tambah](assets/img/tambah_barang.png)
 
 ## Kesimpulan
 
