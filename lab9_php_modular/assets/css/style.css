@@ -1,0 +1,8 @@
+/* assets/css/style.css */
+body { font-family: Arial, sans-serif; background:#f4f4f4; }
+.container { width: 1000px; margin: 20px auto; background:#fff; padding:20px; box-shadow:0 0 6px #ccc; }
+header h1 { margin:0; }
+nav { margin-top:8px; margin-bottom:12px; }
+.content { padding:10px 0; }
+.table { width:100%; border-collapse:collapse; }
+.table th, .table td { border:1px solid #ddd; padding:8px; text-align:left; }
