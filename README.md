@@ -194,7 +194,7 @@ Ubah Barang	?page=user/ubah&id=1
 ## 3. Login
 ![Screenshot login](login1.png)
 
-## 4. Halaman Home Meliputi Dashboard,Header,Footer
+## 4. Tampilan Dashboard
 ![Screenshot home](dashboard1.png)
 
 ## 5. Data Barang/List Add
