@@ -192,16 +192,16 @@ Ubah Barang	?page=user/ubah&id=1
 ![Screenshot stuktur](stuktur.png)
 
 ## 3. Login
-![Screenshot login](login.png)
+![Screenshot login](login1.png)
 
 ## 4. Halaman Home Meliputi Dashboard,Header,Footer
-![Screenshot home](dashboard.png)
+![Screenshot home](dashboard1.png)
 
 ## 5. Data Barang/List Add
-![Screenshot data_barang](data_barang.png)
+![Screenshot data_barang](data_barang1.png)
 
 ### 6.Tampilan Tambah Barang
-![Screenshot tambah](tambah_barang.png)
+![Screenshot tambah](tambah_barang1.png)
 
 ## Kesimpulan
 
